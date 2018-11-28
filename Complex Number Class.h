@@ -4,7 +4,7 @@ using namespace std;
 
 class complexValue
 {
-    double real, im;
+    double re, im;
     friend complexValue operator +(complexValue& lhs, complexValue* rhs);
     friend complexValue operator -(complexValue& lhs, complexValue* rhs);
     friend complexValue operator *(complexValue& lhs, complexValue* rhs);
