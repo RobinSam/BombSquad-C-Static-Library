@@ -16,5 +16,8 @@ class complexValue
     public:
         complexValue();
         complexValue(double r, double i);
+        reValue();
+        imValue();
+        value();
 };
 #endif
