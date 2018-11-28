@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Complex Number Class.h"
+#include "COMPLEXCLASS.h"
 using namespace std;
 
 class complex
