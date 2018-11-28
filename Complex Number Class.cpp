@@ -2,16 +2,16 @@
 #include "Complex Number Class.h"
 using namespace std;
 
-class complexValue
+class complex
 {
     double re, im;
     public:
-        complexValue()
+        complex()
         {
             re = 0;
             im = 0;
         }
-        complexValue(double r, double i)
+        complex(double r, double i)
         {
             re = r;
             im = i;
