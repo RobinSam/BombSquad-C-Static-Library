@@ -1,5 +1,5 @@
-#ifndef COMPLEXCLASS.h
-#define COMPLEXCLASS.h
+#ifndef COMPLEXCLASS_h
+#define COMPLEXCLASS_h
 using namespace std;
 
 class complexValue
