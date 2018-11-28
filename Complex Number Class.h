@@ -5,6 +5,14 @@ using namespace std;
 class complexValue
 {
     double real, im;
+    friend complexValue operator +(complexValue& lhs, complexValue* rhs);
+    friend complexValue operator -(complexValue& lhs, complexValue* rhs);
+    friend complexValue operator *(complexValue& lhs, complexValue* rhs);
+    friend complexValue operator /(complexValue& lhs, complexValue* rhs);
+    friend complexValue operator +=(complexValue& lhs, complexValue* rhs);
+    friend complexValue operator -=(complexValue& lhs, complexValue* rhs);
+    friend complexValue operator *=(complexValue& lhs, complexValue* rhs);
+    friend complexValue operator /=(complexValue& lhs, complexValue* rhs);
     public:
         complexValue();
         complexValue(double r, double i);
