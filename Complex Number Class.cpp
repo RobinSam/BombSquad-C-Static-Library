@@ -16,4 +16,17 @@ class complexValue
             re = r;
             im = i;
         }
+        double reValue()
+        {
+            return re;
+        }
+        double imValue()
+        {
+            return im;
+        }
+        string value()
+        {
+            string temp = re + " " + im + "i";
+            return temp;
+        }
 };
