@@ -4,16 +4,16 @@ using namespace std;
 
 class complexValue
 {
-    double real, im;
+    double re, im;
     public:
         complexValue()
         {
-            real = 0;
+            re = 0;
             im = 0;
         }
         complexValue(double r, double i)
         {
-            real = r;
+            re = r;
             im = i;
         }
 };
