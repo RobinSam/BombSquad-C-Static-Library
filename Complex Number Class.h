@@ -10,4 +10,9 @@ class complexValue
                real = r;
                im = i;
            } 
+        complexValue()
+           {
+               real = 0.0;
+               im = 0.0;
+           }
 };
