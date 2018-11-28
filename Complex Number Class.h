@@ -9,3 +9,4 @@ class complexValue
         complexValue();
         complexValue(double r, double i);
 };
+#endif
