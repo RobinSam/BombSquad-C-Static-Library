@@ -1,5 +1,5 @@
-#ifndef COMPLEXCLASS_h
-#define COMPLEXCLASS_h
+#ifndef COMPLEXCLASS
+#define COMPLEXCLASS
 using namespace std;
 
 class complex
