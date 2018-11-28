@@ -1,5 +1,6 @@
-#include <iostream>
 #include "COMPLEXCLASS.h"
+#include <iostream>
+
 using namespace std;
 
 class complex
