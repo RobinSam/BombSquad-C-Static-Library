@@ -2,20 +2,20 @@
 #define COMPLEXCLASS_h
 using namespace std;
 
-class complexValue
+class complex
 {
     double re, im;
-    friend complexValue operator +(complexValue& lhs, complexValue* rhs);
-    friend complexValue operator -(complexValue& lhs, complexValue* rhs);
-    friend complexValue operator *(complexValue& lhs, complexValue* rhs);
-    friend complexValue operator /(complexValue& lhs, complexValue* rhs);
-    friend complexValue operator +=(complexValue& lhs, complexValue* rhs);
-    friend complexValue operator -=(complexValue& lhs, complexValue* rhs);
-    friend complexValue operator *=(complexValue& lhs, complexValue* rhs);
-    friend complexValue operator /=(complexValue& lhs, complexValue* rhs);
+    friend complex operator +(complex& lhs, complex* rhs);
+    friend complex operator -(complex& lhs, complex* rhs);
+    friend complex operator *(complex& lhs, complex* rhs);
+    friend complex operator /(complex& lhs, complex* rhs);
+    friend complex operator +=(complex& lhs, complex* rhs);
+    friend complex operator -=(complex& lhs, complex* rhs);
+    friend complex operator *=(complex& lhs, complex* rhs);
+    friend complex operator /=(complex& lhs, complex* rhs);
     public:
-        complexValue();
-        complexValue(double r, double i);
+        complex();
+        complex(double r, double i);
         getReValue();
         getImValue();
         getValue();
