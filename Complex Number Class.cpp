@@ -16,11 +16,11 @@ class complexValue
             re = r;
             im = i;
         }
-        double reValue()
+        double getReValue()
         {
             return re;
         }
-        double imValue()
+        double getImValue()
         {
             return im;
         }
