@@ -24,7 +24,7 @@ class complexValue
         {
             return im;
         }
-        string value()
+        string getValue()
         {
             string temp = re + " " + im + "i";
             return temp;

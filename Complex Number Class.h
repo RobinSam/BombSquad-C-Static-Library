@@ -18,6 +18,6 @@ class complexValue
         complexValue(double r, double i);
         getReValue();
         getImValue();
-        value();
+        getValue();
 };
 #endif
