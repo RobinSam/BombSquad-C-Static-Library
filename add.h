@@ -1,4 +1,6 @@
-#include "COMPLEXCLASS.h"
+#ifndef ADD_H
+#define ADD_H
+#include "complexclass.h"
 
 complex operator +(complex& lhs, complex& rhs);
 {
@@ -7,3 +9,4 @@ complex operator +(complex& lhs, complex& rhs);
     temp.im = lhs.im + rhs.im;
     return temp;
 }
+#endif
