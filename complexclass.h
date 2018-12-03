@@ -1,5 +1,7 @@
 #ifndef COMPLEXCLASS
 #define COMPLEXCLASS
+#include "add.h"
+#include "multiplication.h"
 using namespace std;
 
 class complex
