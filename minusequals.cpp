@@ -1,7 +1,10 @@
 #include <iostream>
 #include "COMPLEXCLASS.h"
+using namespace std:
 void operator -(complexValue& lhs, complexValue* rhs) {
 	ComplexValue temp = new ComplexValue();
-	temp.real=arg1.real+arg2->real;
-	lhs = temp;
+	temp.re=arg1.re-arg2->re;
+	temp.im=arg1.im-arg2->im;
+	lhs=temp;
+	return lhs;
 }
