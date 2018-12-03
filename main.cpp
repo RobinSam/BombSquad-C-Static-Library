@@ -1,10 +1,10 @@
 #include <iostream>
-#include "complexclass.h"
+#include "complexnum.h"
 using namespace std;
-using namespace complexclass;
+using namespace complexNum;
 
 int main(){
-  complex A, B, C;
+  complexNum A, B, C;
   
   
   return 0;

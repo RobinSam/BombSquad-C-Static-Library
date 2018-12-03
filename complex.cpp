@@ -1,17 +1,17 @@
-#include "cnum.h"
+#include "complexnum.h"
 #include <string>
 using namespace std;
 
-class cnum
+complexNum
 {
     double re, im;
     public:
-        cnum()
+        complexNum()
         {
             re = 0;
             im = 0;
         }
-        cnum(double r, double i)
+        complexNum(double r, double i)
         {
             re = r;
             im = i;

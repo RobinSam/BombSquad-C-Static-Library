@@ -1,11 +1,12 @@
 #ifndef MINUSEQUALS_H
 #define MINUSEQUALS_H
-#include "complex.h"
+#include "complexnum.h"
 
-complex operator -(complex& lhs, complex& rhs) {
-	complex temp = rhs;
+Complex operator -(Complex& lhs, Complex& rhs) {
+	Complex temp = rhs;
 	temp.re=arg1.re-arg2.re;
 	temp.im=arg1.im-arg2.im;
 	lhs=temp;
 	return lhs;
 }
+#endif
