@@ -1,9 +1,9 @@
 #ifndef MULTIPLICATION_H
 #define MULTIPLICATION_H
-#include "complexclass.h"
+#include "cnum.h"
 
-complex operator *(complex& lhs, complex& rhs){
-    complex temp = rhs;
+cnum operator *(cnum& lhs, cnum& rhs){
+    cnum temp = rhs;
     temp.re = (lhs.re * rhs.re) - (lhs.im * rhs.im);
     temp.im = (lhs.re * rhs.im) + (lhs.im * rhs.re);
     return temp;
