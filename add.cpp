@@ -1,10 +1,9 @@
-#include "COMPLEXCLASS_h"
-#include <iostream>
+#include "COMPLEXCLASS.h"
 
-complex operator +(complex& lhs, complex* rhs);
+complex operator +(complex& lhs, complex& rhs);
 {
-    complex temp = *lhs;
-    temp.re = lhs.re + rhs->re;
-    temp.im = lhs.im + rhs->im;
+    complex temp = rhs;
+    temp.re = lhs.re + rhs.re;
+    temp.im = lhs.im + rhs.im;
     return temp;
 }
