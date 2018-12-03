@@ -1,4 +1,5 @@
 #include "cnum.h"
+#include <string>
 using namespace std;
 
 class cnum
@@ -25,7 +26,7 @@ class cnum
         }
         string getValue()
         {
-            string temp = re + " " + im + "i";
+            string temp = to_string(re) + " " + to_string(im) + "i";
             return temp;
         }
 };
