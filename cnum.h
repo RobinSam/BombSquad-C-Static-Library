@@ -2,6 +2,7 @@
 #define CNUM_H
 #include "add.h"
 #include "multiplication.h"
+#include <string>
 using namespace std;
 
 class cnum
