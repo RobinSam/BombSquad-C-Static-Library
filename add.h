@@ -1,10 +1,10 @@
 #ifndef ADD_H
 #define ADD_H
-#include "complexclass.h"
+#include "cnum.h"
 
-complex operator +(complex& lhs, complex& rhs);
+cnum operator +(cnum& lhs, cnum& rhs);
 {
-    complex temp = rhs;
+    cnum temp = rhs;
     temp.re = lhs.re + rhs.re;
     temp.im = lhs.im + rhs.im;
     return temp;
