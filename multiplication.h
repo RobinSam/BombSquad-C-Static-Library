@@ -1,4 +1,6 @@
-#include "COMPLEXCLASS.h"
+#ifndef MULTIPLICATION_H
+#define MULTIPLICATION_H
+#include "complexclass.h"
 
 complex operator *(complex& lhs, complex& rhs){
     complex temp = rhs;
@@ -6,3 +8,4 @@ complex operator *(complex& lhs, complex& rhs){
     temp.im = (lhs.re * rhs.im) + (lhs.im * rhs.re);
     return temp;
 }
+#endif
