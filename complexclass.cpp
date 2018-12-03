@@ -1,6 +1,4 @@
-#include "COMPLEXCLASS.h"
-#include <iostream>
-
+#include "complexclass.h"
 using namespace std;
 
 class complex
