@@ -18,9 +18,9 @@ class cnum
     public:
         cnum();
         cnum(double r, double i);
-        getReValue();
-        getImValue();
-        getValue();
+        double getReValue();
+        double getImValue();
+        string getValue();
 };
 #endif
 
