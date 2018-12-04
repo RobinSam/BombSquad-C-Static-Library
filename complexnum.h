@@ -9,10 +9,10 @@ class Complex
     friend Complex operator -(Complex& lhs, Complex& rhs);
     friend Complex operator *(Complex& lhs, Complex& rhs);
     friend Complex operator /(Complex& lhs, Complex& rhs);
-    friend Complex operator +=(Complex& lhs, Complex& rhs);
-    friend Complex operator -=(Complex& lhs, Complex& rhs);
-    friend Complex operator *=(Complex& lhs, Complex& rhs);
-    friend Complex operator /=(Complex& lhs, Complex& rhs);
+    friend void operator +=(Complex& lhs, Complex& rhs);
+    friend void operator -=(Complex& lhs, Complex& rhs);
+    friend void operator *=(Complex& lhs, Complex& rhs);
+    friend void operator /=(Complex& lhs, Complex& rhs);
     public:
         double re, im;
         Complex();

@@ -2,7 +2,7 @@
 #define ADD_H
 #include "complexnum.h"
 
-Complex::Complex operator +(Complex& lhs, Complex& rhs)
+Complex operator +(Complex& lhs, Complex& rhs)
 {
     Complex temp = rhs;
     temp.re = lhs.re + rhs.re;

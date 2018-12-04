@@ -4,9 +4,9 @@
 using namespace std;
 
 Complex operator -(Complex& lhs, Complex& rhs) {
-	Complex temp = new Complex();
-	temp.re=arg1.re-arg2.re;
-	temp.im=arg1.im-arg2.im;
+	Complex temp = Complex();
+	temp.re=lhs.re-rhs.re;
+	temp.im=lhs.im-rhs.im;
 	return temp;
 }
 #endif
