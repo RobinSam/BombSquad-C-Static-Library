@@ -1,8 +1,4 @@
-#include "complexnum.h"
-#include "add.h"
-#include "minus.h"
-#include "multiplication.h"
-#include "minusequals.h"
+#include "complex.h"
 #include <string>
 using namespace std;
 
