@@ -1,4 +1,4 @@
-#include "complexnum.h"
+#include "complex.h"
 using namespace std;
 
 Complex Complex:: operator -(Complex& lhs, Complex& rhs) {
