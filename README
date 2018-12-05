@@ -1,2 +1,7 @@
 BombSquad-C-Static-Library
+All operator overload files should be named with ".cpp"
 
+Remember to declare scope for operator overload files
+ex: "Complex Complex:: operator +(Complex& lhs, Complex&rhs)"
+
+Also, both arguments for operator overloading should be references "&".
