@@ -1,5 +1,5 @@
 #include <iostream>
-#include "complexnum.h"
+#include "complex.h"
 using namespace std;
 
 int main(){
