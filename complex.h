@@ -28,8 +28,6 @@ class Complex
         void operator *=(Complex& rhs);
         void operator /=(Complex& rhs);
         void operator =(Complex& rhs);
-        ostream& operator <<(ostream& lhs, const Complex& rhs);
-        istream& operator >>(istream& lhs, const Complex& rhs);
 };
 #endif
 
