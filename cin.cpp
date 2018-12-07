@@ -1,4 +1,4 @@
-#include <math.h>
+#include <iostream.h>
 #include "complex.h"
 void operator >>(istream& lhs, Complex& rhs) {
 string input1 = "";
