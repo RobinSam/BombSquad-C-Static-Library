@@ -8,9 +8,9 @@ class Complex
     friend ostream& operator <<(ostream& lhs, Complex& rhs);
     friend void operator >>(istream& lhs, Complex& rhs);
     friend double abs(Complex& com);
-    friend Complex conj(Complex& rhs);
+    friend Complex& conj(Complex& rhs);
     friend double norm(Complex& com);
-    friend Complex exp(Complex& rhs);
+    friend Complex& exp(Complex& rhs);
     public:
         double re, im;
         Complex();
@@ -19,10 +19,10 @@ class Complex
         double getReValue();
         double getImValue();
         string getValue();
-        Complex operator +(const Complex& rhs);
-        Complex operator -(const Complex& rhs);
-        Complex operator *(const Complex& rhs);
-        Complex operator /(const Complex& rhs);
+        Complex& operator +(const Complex& rhs);
+        Complex& operator -(const Complex& rhs);
+        Complex& operator *(const Complex& rhs);
+        Complex& operator /(const Complex& rhs);
         void operator +=(const Complex& rhs);
         void operator -=(const Complex& rhs);
         void operator *=(const Complex& rhs);

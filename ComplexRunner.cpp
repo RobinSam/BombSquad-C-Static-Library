@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <iostream>
-#include <complex.h>
+#include "complex.h"
 
 using namespace std;
 
@@ -10,13 +10,15 @@ int main ()
    cout << "Hello World" << endl;
    
    
-     complex a(5.0,6.0),b;
+     Complex a = Complex(5.0,6.0);
+     Complex b = Complex(3.0, 4.0);
    
-     cout << "Enter b: ";
-     cin >> b;
+     //cout << "Enter b: ";
+     //cin >> b;
    
+     cout << "hello" << endl;
      cout << "a = " << a << "\n";
-     cout << "b = " << b << "\n";
+     //cout << "b = " << b << "\n";
    
      cout << "a + b = " << a + b << "\n";
      cout << "a * b = " << a * b << "\n";
@@ -25,7 +27,7 @@ int main ()
      cout << "complex conjugate of a = " << conj(a) << "\n";
      cout << "norm of a = " << norm(a) << "\n";
      cout << "abs of a = " << abs(a) << "\n";
-     cout << "exp(a) = " << exp(a) << "\n";
+     //cout << "exp(a) = " << exp(a) << "\n";
 
    
    
