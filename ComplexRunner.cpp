@@ -10,10 +10,11 @@ int main ()
    cout << "Hello World" << endl;
    
    
-     complex a(5.0,6.0),b;
+     Complex a(5.0,6.0);
+     Complex b(4.0, 3.0);
    
-     cout << "Enter b: ";
-     cin >> b;
+     // cout << "Enter b: ";
+     // cin >> b;
    
 //      cout << "a = " << a << "\n";
 //      cout << "b = " << b << "\n";
