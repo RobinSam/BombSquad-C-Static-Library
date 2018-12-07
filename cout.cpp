@@ -4,8 +4,8 @@
 #include <string.h>
 using namespace std;
 
-ostream& Complex::operator <<(Complex* temp){
+ostream& Complex::operator <<(ostream& lhs, Complex* temp){
   //date, region, rep, item, units, unitCost, Total
-  this << Complex->re << Complex->im;
-  return this;
+  lhs << temp->re << temp->im;
+  return lhs;
 }
