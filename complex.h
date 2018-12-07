@@ -7,9 +7,9 @@ class Complex
 {
     friend ostream& operator <<(ostream& lhs, Complex& rhs);
     friend void operator >>(istream& lhs, Complex& rhs);
-    friend Complex abs(Complex& rhs);
+    friend Complex abs(Complex& com);
     friend Complex conj(Complex& rhs);
-    friend Complex norm(Complex& rhs);
+    friend Complex norm(Complex& com);
     friend Complex exp(Complex& rhs);
     public:
         double re, im;
