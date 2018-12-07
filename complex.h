@@ -20,6 +20,7 @@ class Complex
         void operator -=(Complex& rhs);
         void operator *=(Complex& rhs);
         void operator /=(Complex& rhs);
+        void operator =(Complex& rhs);
 };
 #endif
 
