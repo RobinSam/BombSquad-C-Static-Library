@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-  Complex A, B, C;
+  Complex a, b, c;
   
   
   return 0;
