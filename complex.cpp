@@ -14,6 +14,12 @@ Complex::Complex(double r, double i)
     im = i;
 }
 
+Complex::Complex(double r)
+{
+    re = r;
+    im = 0;
+}
+
 double Complex::getReValue()
 {
     return re;

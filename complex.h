@@ -9,6 +9,7 @@ class Complex
         double re, im;
         Complex();
         Complex(double r, double i);
+        Complex(double r);
         double getReValue();
         double getImValue();
         string getValue();
