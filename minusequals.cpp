@@ -1,6 +1,7 @@
 #include "complex.h"
 
-void Complex:: operator -=(Complex& lhs, Complex& rhs) {
-	lhs.re=lhs.re-rhs.re;
-	lhs.im=lhs.im-rhs.im;
+void Complex:: operator -=(Complex& rhs) {
+	Complex temp = this;
+	temp=temp-rhs;
+	this = temp;
 }
