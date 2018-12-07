@@ -6,6 +6,6 @@ using namespace std;
 
 ostream& Complex::operator <<(ostream& lhs, Complex* temp){
   //date, region, rep, item, units, unitCost, Total
-  lhs << temp->re << temp->im;
+  lhs << temp->re << "+" << temp->im << "i";
   return lhs;
 }
