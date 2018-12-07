@@ -12,14 +12,14 @@ class Complex
         double getReValue();
         double getImValue();
         string getValue();
-        Complex operator +(Complex& lhs, Complex& rhs);
-        Complex operator -(Complex& lhs, Complex& rhs);
-        Complex operator *(Complex& lhs, Complex& rhs);
-        Complex operator /(Complex& lhs, Complex& rhs);
-        void operator +=(Complex& lhs, Complex& rhs);
-        void operator -=(Complex& lhs, Complex& rhs);
-        void operator *=(Complex& lhs, Complex& rhs);
-        void operator /=(Complex& lhs, Complex& rhs);
+        Complex operator +(Complex& rhs);
+        Complex operator -(Complex& rhs);
+        Complex operator *(Complex& rhs);
+        Complex operator /(Complex& rhs);
+        void operator +=(Complex& rhs);
+        void operator -=(Complex& rhs);
+        void operator *=(Complex& rhs);
+        void operator /=(Complex& rhs);
 };
 #endif
 
