@@ -1,8 +1,9 @@
-#include <iostream.h>
+#include <iostream>
 #include "complex.h"
-void operator >>(istream& lhs, Complex& rhs) {
-string input1 = "";
-istream>>input1;
-rhs.re=stod(input1.substr(0,3));
-rhs.im = stod(input1.substr(4,3));
+istream& operator >>(istream& lhs, Complex& rhs) {
+   cout << "Enter Real Part ";
+   lhs >> rhs.re;
+   cout << "Enter Imagenary Part ";
+   lhs >> rhs.im;
+   return lhs;
 }
