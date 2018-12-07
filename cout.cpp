@@ -4,8 +4,7 @@
 #include <string.h>
 using namespace std;
 
-ostream& Complex::operator <<(ostream& lhs, const Complex& temp){
-  //date, region, rep, item, units, unitCost, Total
-  lhs << temp.re << "+" << temp.im << "i";
+ostream& Complex::operator <<(ostream& lhs, Complex& rhs){
+  lhs << rhs.re << "+" << rhs.im << "i" << endl;
   return lhs;
 }
