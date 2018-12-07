@@ -1,6 +1,6 @@
-#import "complex.h"
+#include "complex.h"
 
-void Complex:: operator /=(Complex& rhs){
+void Complex:: operator /=(const Complex& rhs){
    Complex temp = *this;
    temp = temp/rhs;
    *this = temp;

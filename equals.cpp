@@ -1,7 +1,9 @@
 #include "complex.h"
 
-void Complex:: operator =(Complex& rhs)
+void Complex:: operator =(const Complex& rhs)
 {
-   this->re = rhs.re;
-   this->im = rhs.im;
+   Complex temp = *this;
+   temp.re = rhs.re;
+   temp.im = rhs.im;
+   *this = temp;
 }
