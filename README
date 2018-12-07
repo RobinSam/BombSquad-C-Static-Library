@@ -6,4 +6,5 @@ ex: "Complex Complex:: operator +(Complex& lhs, Complex&rhs)"
 
 Also, both arguments for operator overloading should be references "&".
 
+How to compile the library (make sure to exclude the ComplexRunner.o):
 ar rsv complexLibrary.a *.o
