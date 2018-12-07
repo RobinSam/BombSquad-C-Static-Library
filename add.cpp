@@ -1,10 +1,10 @@
 #include "complex.h"
 
-Complex Complex:: operator +(Complex& lhs, Complex& rhs)
+Complex Complex:: operator +(Complex& rhs)
 {
-    Complex temp = rhs;
-    temp.re = lhs.re + rhs.re;
-    temp.im = lhs.im + rhs.im;
+    Complex temp = *this;
+    temp.re = temp.re + rhs.re;
+    temp.im = temp.im + rhs.im;
     return temp;
 }
 
