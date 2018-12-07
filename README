@@ -5,3 +5,5 @@ Remember to declare scope for operator overload files
 ex: "Complex Complex:: operator +(Complex& lhs, Complex&rhs)"
 
 Also, both arguments for operator overloading should be references "&".
+
+ar rsv complexLibrary.a *.o
