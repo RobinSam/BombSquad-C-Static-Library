@@ -1,9 +1,9 @@
 #include "complex.h"
 using namespace std;
 
-Complex Complex:: operator /(Complex& lhs, Complex& rhs){
-   Complex temp = rhs;
-   temp.re = ((lhs.re*rhs.re)+(lhs.im*rhs.im))/(rhs.re*rhs.re+rhs.im*rhs.im);
-   temp.im = (lhs.im*rhs.re-lhs.re*rhs.im)/(rhs.re*rhs.re+rhs.im*rhs.im);
+Complex Complex:: operator /(Complex& rhs){
+   Complex temp = *this;
+   temp.re = ((temp.re*rhs.re)+(temp.im*rhs.im))/(rhs.re*rhs.re+rhs.im*rhs.im);
+   temp.im = (temp.im*rhs.re-temp.re*rhs.im)/(rhs.re*rhs.re+rhs.im*rhs.im);
    return temp;
 }
