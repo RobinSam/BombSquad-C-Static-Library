@@ -12,6 +12,7 @@ class Complex
     friend double norm(Complex& com);
     friend Complex& exp(Complex& rhs);
     friend double sin(Complex& com);
+    friend double arg(Complex& rhs);
     public:
         double re, im;
         Complex();

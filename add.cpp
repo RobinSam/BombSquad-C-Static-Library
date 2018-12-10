@@ -15,6 +15,7 @@ Created: 11/28/2018
  *               right hand side of the + operation
  * Return:       The resulting complex number object after being added
  */
+
 Complex Complex:: operator +(const Complex& rhs)
 {
     Complex temp = *this;
