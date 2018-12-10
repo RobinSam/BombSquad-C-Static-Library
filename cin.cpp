@@ -1,6 +1,6 @@
 /* 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-Title: Complex Arg Function
+Title: Complex cin Function
 Author: Robin Sam 
 Description: Overloads >> operator to accurately take in the parameters of a complex number as input
              and assign the input to a predefined complex variable.
