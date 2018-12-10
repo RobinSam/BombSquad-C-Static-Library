@@ -11,6 +11,7 @@ class Complex
     friend Complex& conj(Complex& rhs);
     friend double norm(Complex& com);
     friend Complex& exp(Complex& rhs);
+    friend double sin(Complex& com);
     public:
         double re, im;
         Complex();
