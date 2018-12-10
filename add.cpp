@@ -3,11 +3,18 @@
 /* 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Title: Complex Addition Operator
-Author: Lucas Teltow 
+Author: Chris Smith
 Description: Overloads + operator to allow for addition of complex numbers. 
-Created: 12/2/2018
+Created: 11/28/2018
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 */
+
+/*
+ * Summary:      Adds two complex numbers together
+ * Parameters:   rhs - The Complex number object to add with on the 
+ *               right hand side of the + operation
+ * Return:       The resulting complex number object after being added
+ */
 
 Complex Complex:: operator +(const Complex& rhs)
 {
