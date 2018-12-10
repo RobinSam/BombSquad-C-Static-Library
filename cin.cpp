@@ -19,7 +19,7 @@ Modified: 12/10/2018
 istream& operator >>(istream& lhs, Complex& rhs) {
    cout << "Enter Real Part: ";
    lhs >> rhs.re;
-   cout << "Enter Imagenary Part: ";
+   cout << "Enter Imaginary Part: ";
    lhs >> rhs.im;
    return lhs;
 }
