@@ -9,6 +9,12 @@ Created : 12/2/18
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 */
 
+/*
+ * Summary: Multiplies two complex numbers
+ * Parameters: rhs the complex number on the right to multiply by
+ * Return: The complex product of the two complex numbers 
+ */
+
 Complex Complex:: operator *(const Complex& rhs){
     Complex temp = *this;
     temp.re = (temp.re * rhs.re) - (temp.im * rhs.im);
