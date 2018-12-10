@@ -8,3 +8,9 @@ Also, both arguments for operator overloading should be references "&".
 
 How to compile the library (make sure to exclude the ComplexRunner.o):
 ar rsv complexLibrary.a *.o
+
+How to create an executable:
+g++ ComplexRunner.cpp -o ComplexRunner.exe complexLibrary.a
+
+Running the executable:
+ComplexRunner.exe (cmd) or ./ComplexRunner (bash)
