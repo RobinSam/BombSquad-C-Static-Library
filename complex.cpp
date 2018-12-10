@@ -2,6 +2,15 @@
 #include <string>
 using namespace std;
 
+/* 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Title: Complex Class
+Author: Lucas Teltow 
+Description: Defines the Complex object and get functions for variables. 
+Created: 12/4/2018
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+*/
+
 Complex::Complex()
 {
     re = 0;
