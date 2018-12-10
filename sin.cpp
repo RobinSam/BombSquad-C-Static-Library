@@ -7,6 +7,7 @@ Title: Complex Sine Function
 Author: Chris Smith
 Description: Function to calculate the sine of a given complex number.
 Created: 12/10/2018
+Modified: 12/10/2018
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 */
 

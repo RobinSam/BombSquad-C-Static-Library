@@ -6,6 +6,7 @@ Title: Complex Times Equals Operator
 Author: Chris Smith
 Description: Overloads + operator to allow for multiplying a complex number by another. 
 Created: 12/7/2018
+Modified: 12/10/2018
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 */
 

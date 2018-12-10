@@ -6,6 +6,7 @@ Title: Complex Addition Operator
 Author: Chris Smith
 Description: Overloads + operator to allow for addition of complex numbers. 
 Created: 11/28/2018
+Modified: 12/10/2018
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 */
 
