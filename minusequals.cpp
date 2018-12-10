@@ -1,7 +1,7 @@
 #include "complex.h"
 /* 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-Title : -= operator
+Title : Complex -= operator
 Author : Chinmay Murthy
 Description :Overloaded operator for complex arguments
 Modified : 12/5/2018
