@@ -1,3 +1,13 @@
+/* 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Title: Complex Arg Function
+Author: Robin Sam 
+Description: Overloads / operator for complex numbers to accurately divide complex numbers.
+Created: 12/10/2018
+Modified: 12/10/2018
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+*/
+
 #include "complex.h"
 using namespace std;
 
