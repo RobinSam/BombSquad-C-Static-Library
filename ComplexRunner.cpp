@@ -11,14 +11,14 @@ int main ()
    
    
      Complex a = Complex(5.0,6.0);
-     Complex b = Complex(3.0, 4.0);
+     Complex b;
    
-     //cout << "Enter b: ";
-     //cin >> b;
+     cout << "Enter b: " << endl;
+     cin >> b;
    
      cout << "hello" << endl;
      cout << "a = " << a << "\n";
-     //cout << "b = " << b << "\n";
+     cout << "b = " << b << "\n";
    
      cout << "a + b = " << a + b << "\n";
      cout << "a * b = " << a * b << "\n";
@@ -31,23 +31,23 @@ int main ()
 
    
    
-   /*
-    _Complex j = _Complex(0.0,1.0);
-    _Complex z1 = 1+2*j;
-    _Complex z2 = 2+3*j;
+   
+    Complex z1 = Complex(2.0, 4.0);
+    Complex z2 = Complex(3.0, 7.0);
    
     z1 += z2;
-   / *
+   
     cout << "Complex number example: " << z1 << endl;
-    cout << "The conjugate is: " << z1.conj() << endl;
-    cout << "The magnitude is: " << z1.abs() << endl;
-    cout << "The phase in Radians is: " << z1.arg() << endl;
-    cout << "The norm is: " << z1.norm() << endl;
-    cout << "The sqrt is: " << sqrt(z1) << endl;
-    cout << "The natural log is: " << log(z1) << endl;
+    cout << "The conjugate is: " << conj(z1) << endl;
+    cout << "The magnitude is: " << abs(z1) << endl;
+    cout << "The phase in Radians is: " << "NaN" << endl;
+    cout << "The norm is: " << norm(z1) << endl;
+    cout << "The sqrt is: " << "NaN" << endl;
+    cout << "The natural log is: " << "NaN" << endl;
     cout << "The sin is: " << sin(z1) << endl;
-    cout << "The acosh is: " << acosh(z1) << endl;
-    cout << "Rounded to 2 decimal places: " << acosh(z1).rnd(2) << endl;
-     */ 
+    cout << "The acosh is: " << "NaN" << endl;
+    cout << "Rounded to 2 decimal places: " << "NaN" << endl;
+     
    
 }
+

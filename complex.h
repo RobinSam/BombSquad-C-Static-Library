@@ -6,7 +6,7 @@ using namespace std;
 class Complex
 {
     friend ostream& operator <<(ostream& lhs, const Complex& rhs);
-    friend istream& operator >>(istream& lhs, const Complex& rhs);
+    friend istream& operator >>(istream& lhs, Complex& rhs);
     friend double abs(Complex& com);
     friend Complex& conj(Complex& rhs);
     friend double norm(Complex& com);
